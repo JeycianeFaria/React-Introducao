@@ -4,5 +4,8 @@ body{
   background-color: rgb(199, 216, 210);
   color: #000;
   font-size: 2rem;
-  font-weight: 100;
+}
+
+h1, h2 {
+  color: rgb(14, 87, 87);
 }
