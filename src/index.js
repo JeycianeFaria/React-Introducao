@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ComponenteComProps from './components/ComponenteComProps';
-import PrimeiroComponente from './components/PrimeiroComponente';
+import Card from './components/Card';
 import './index.css';
 
 
 ReactDOM.render(
   <div>
-    <ComponenteComProps nome="André" cargo="Instrutor"/>
-    <ComponenteComProps nome="Vini" cargo="Instrutor"/>
-    <ComponenteComProps nome="Maga" cargo="GP"/>
-    <ComponenteComProps nome="Gi" cargo="GP"/>
+    <Card titulo = "Cartao #1" conteudo = "Aulas desse cartão"></Card>
+    <Card titulo = "Cartao #2" conteudo = "Aulas desse cartão"></Card>
+    <Card titulo = "Cartao #3" conteudo = "Aulas desse cartão"></Card>
   </div>,
   document.getElementById('root')
 );
